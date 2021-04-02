@@ -1,0 +1,34 @@
+body{
+    background: #f5f6f5;
+    font-family: 'Oswald',sans-serif;
+    overflow: hidden;
+}
+
+.index{
+    width: 100vw;
+    height: 100vh;
+}
+
+.masthed{
+    color: white;
+    min-height: 30rem;
+    width: 100%;
+    height: 100%;
+    padding-top: 8rem;
+    background: url('/img/notas.jpg');
+    background-position:center center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.masthed h1{
+    font-size: 4rem;
+    padding: 0;
+    margin: 0;
+}
+
+@media (min-width:992px){
+    .masthed h1{
+        font-size: 5.5rem;
+    }
+}
